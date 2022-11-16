@@ -1,4 +1,4 @@
-## Left Right Odd Count
+# Left Right Odd Count
 
 ## Description
 
