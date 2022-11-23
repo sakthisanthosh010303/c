@@ -9,7 +9,7 @@
 
 int *array, size;
 
-void helper(int place) { // Modified Implementation of count sort.
+void helper(int place) { // Modified implementation of count sort.
   int counter1, result[size];
   int largest = 0;
 
