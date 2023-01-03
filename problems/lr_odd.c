@@ -12,19 +12,22 @@ int main(){
   int left_count = 0;
   int right_count = 0;
 
+  printf("Enter size: ");
   scanf("%d", &size);
 
   int array[size];
 
+  printf("Enter array: ");
   for (counter1 = 0; counter1 < size; counter1++) {
     scanf("%d", &array[counter1]);
-    left_count += (array[counter1] % 2);
+    right_count += (array[counter1] % 2);
   }
 
-  for (counter1 = 0; counter1 < 6; counter1++) {
-    left_count -= (array[counter1] % 2);
-    printf("%d ", (left_count == right_count) ? array[counter1] : -1);
-    right_count += (array[counter1] % 2);
+  printf("\nResult: ");
+  for (counter1 = 0; counter1 < size; counter1++) {
+    right_count -= (array[counter1] % 2);
+    printf("%d ", (left_count == right_count) ? array[counter1] : 0);
+    left_count += (array[counter1] % 2);
   }
   printf("\n");
   return 0;
