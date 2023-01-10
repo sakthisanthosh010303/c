@@ -2,13 +2,14 @@
  * Author: Sakthi Santhosh
  * Created on: 04/12/2022
  *
- * Element Range: 1 to 100
+ * Website: https://leetcode.com/problems/two-sum/
  *
  * Two Sum
  */
 #include <stdio.h>
 
 int main() {
+  // XXX: Elements range from 1 to 100.
   int size, counter1, counter2, target, map[100];
 
   printf("Enter size: ");

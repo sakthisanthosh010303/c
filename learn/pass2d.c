@@ -39,7 +39,7 @@ void method3(int row, int column, int **matrix) {
   }
 }
 
-void method4(int row, int column, int (*matrix)[column]) {
+void method4(int row, int column, int (*matrix)[column]) { // Pointer to an array of size column.
   int counter1, counter2;
 
   for (counter1 = 0; counter1 < row; counter1++) {

@@ -1,4 +1,4 @@
-FILE = 
+FILE = climbing_stairs
 
 default: compile run clean
 

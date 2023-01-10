@@ -2,7 +2,7 @@
  * Author: Sakthi Santhosh
  * Created on: 23/09/2022
  *
- * Reference: https://youtu.be/AoX3BPWNnoE
+ * Reference: https://youtu.be/7pnhv842keE
  *
  * Majority Element - Moore's Voting Theorem
  */

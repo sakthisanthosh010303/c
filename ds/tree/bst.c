@@ -305,7 +305,7 @@ int main() {
             inorder();
             break;
           default:
-            printf("\033[31;01mError:\033[00m Invalid sub-option.");
+            printf("\033[31;01mError:\033[00m Invalid sub-option.\n");
         }
         break;
       case 5:
